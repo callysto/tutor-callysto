@@ -1,1 +1,1 @@
-mysql -u root --password="{{ MYSQL_ROOT_PASSWORD }}" --host "{{ MYSQL_HOST }}" --port {{ MYSQL_PORT }} -e "insert into theming_sitetheme (id, theme_dir_name, site_id) values (1, 'iblx-lms', 1) on duplicate key update theme_dir_name='iblx-lms', site_id=1" openedx
+mysql -u root --password="{{ MYSQL_ROOT_PASSWORD }}" --host "{{ MYSQL_HOST }}" --port {{ MYSQL_PORT }} -e "insert into theming_sitetheme (id, theme_dir_name, site_id) values (1, 'indigo', 1) on duplicate key update theme_dir_name='indigo', site_id=1" openedx
